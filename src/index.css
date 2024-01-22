@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  button {
+    @apply w-52 aspect-square rounded-xl bg-slate-800 hover:bg-slate-900 transition-all select-none;
+  }
+}
